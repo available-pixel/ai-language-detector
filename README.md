@@ -38,33 +38,3 @@
 🇷🇺 Я изучаю искусственный интеллект и люблю программировать на Python.
 🇨🇳 我正在学习人工智能，并且喜欢用 Python 编程。
 
-**#### Installation (for local use)**
-
-# Clone repository
-git clone https://github.com/available-pixel/ai-language-detector.git
-cd ai-language-detector
-
-# Create and activate virtual environment
-python -m venv venv
-venv\Scripts\activate   # Windows
-source venv/bin/activate  # Mac/Linux
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run app
-streamlit run app.py
-
-**##### Requirements**
-
-Python 3.11 (recommended)
-Streamlit
-scikit-learn
-pandas
-gdown
-
-**###### About the Model**
-
-Trained on 234 languages using Naive Bayes
-Character-level TF-IDF vectorization (1–4 grams)
-Handles medium-to-long text best

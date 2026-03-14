@@ -39,19 +39,19 @@
 
 **Installation (for local use)**
 
-# Clone repository
+Clone repository
 - git clone https://github.com/available-pixel/ai-language-detector.git
 - cd ai-language-detector
 
-# Create and activate virtual environment
+Create and activate virtual environment
 - python -m venv venv
 - venv\Scripts\activate   # Windows
 - source venv/bin/activate  # Mac/Linux
 
-# Install dependencies
+Install dependencies
 pip install -r requirements.txt
 
-# Run app
+Run app
 streamlit run app.py
 
 **Requirements**

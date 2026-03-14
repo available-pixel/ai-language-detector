@@ -36,6 +36,31 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+import os
+import gdown
+
+# -----------------------------
+# Google Drive file IDs
+# -----------------------------
+
+MODEL_ID = "12uppkw-0Wb-xp8LdS6sV-C3JUsBANnsg"
+VECTORIZER_ID = "1cnymAxttLSWV5DDL96UommT77CgTbgSC"
+
+MODEL_PATH = "model.pkl"
+VECTORIZER_PATH = "vectorizer.pkl"
+
+# -----------------------------
+# Download model if not present
+# -----------------------------
+
+if not os.path.exists(MODEL_PATH):
+    url = f"https://drive.google.com/uc?id={MODEL_ID}"
+    gdown.download(url, MODEL_PATH, quiet=False)
+
+if not os.path.exists(VECTORIZER_PATH):
+    url = f"https://drive.google.com/uc?id={VECTORIZER_ID}"
+    gdown.download(url, VECTORIZER_PATH, quiet=False)
+
 # -----------------------------
 # Load model
 # -----------------------------

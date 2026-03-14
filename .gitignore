@@ -1,0 +1,6 @@
+venv/
+data/
+model.pkl
+vectorizer.pkl
+__pycache__/
+*.pyc

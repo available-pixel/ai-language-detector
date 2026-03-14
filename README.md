@@ -40,13 +40,13 @@
 **Installation (for local use)**
 
 # Clone repository
-git clone https://github.com/available-pixel/ai-language-detector.git
-cd ai-language-detector
+- git clone https://github.com/available-pixel/ai-language-detector.git
+- cd ai-language-detector
 
 # Create and activate virtual environment
-python -m venv venv
-venv\Scripts\activate   # Windows
-source venv/bin/activate  # Mac/Linux
+- python -m venv venv
+- venv\Scripts\activate   # Windows
+- source venv/bin/activate  # Mac/Linux
 
 # Install dependencies
 pip install -r requirements.txt
@@ -56,11 +56,11 @@ streamlit run app.py
 
 **Requirements**
 
-Python 3.11 (recommended)
-Streamlit
-scikit-learn
-pandas
-gdown
+- Python 3.11 (recommended)
+- Streamlit
+- scikit-learn
+- pandas
+- gdown
 
 **About the Model**
 
